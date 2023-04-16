@@ -11,7 +11,7 @@
 
 -   ir a la ruta de xammp y ejecutar xammp
 -   abrir cmd desde donde se guardara el proyecto
--   git clone https://github.com/MiCa-ke/seguros2.git
+-   gh repo clone MiCa-ke/BilleteraMovil
 -   composer install
 -   duplicar el archivo .env example
 -   cambiar nombre a .env
