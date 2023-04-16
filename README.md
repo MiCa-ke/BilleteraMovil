@@ -9,19 +9,21 @@
 
 ## Instalacion del proyecto
 
--   ir a la ruta de xammp y ejecutar xammp
--   abrir cmd desde donde se guardara el proyecto
+-   ejecutar xammp
+-   ir a la ruta de xammp 
+-   en la carpeta de htdocs abrir cmd y poner: 
 -   gh repo clone MiCa-ke/BilleteraMovil
--   composer install
 -   duplicar el archivo .env example
 -   cambiar nombre a .env
--   php artisan key:generate
-
--   composer require spatie/laravel-permission
--   php artisan migrate:fresh --seed
--   composer require laravel/socialite
--   php artisan serve
+-   Abrimos el VSC en la carpeta creada recien y pegamos en la terminal:
+-   composer install
 -   npm install
+-   composer require spatie/laravel-permission
+-   composer require laravel/socialite
+-   php artisan key:generate
+-   php artisan migrate
+-   php artisan migrate:fresh --seed
+-   php artisan serve
 -   npm run dev      //permite correr los cambios en tiempo real
 -   http://127.0.0.1:8000
 
